@@ -1,7 +1,7 @@
 '''冒泡算法'''
 def maopao(list):
     for n in  range(len(list)-1):
-        for i in range(len(list)-1-n):
+        for i in rangelen(list)-1-n):
             if list[i]>list[i+1]:
                 list[i],list[i+1]=list[i+1],list[i]
         return list
